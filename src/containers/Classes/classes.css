@@ -1,0 +1,141 @@
+.classesContainer {
+    display: grid;
+    /* justify-content: space-around; */
+    margin: 30px;
+    margin-top: 60px;
+    grid-template-columns: 1fr max-content;
+    gap: 50px;
+    position: absolute;
+    left: 105px;
+    width: -webkit-fill-available;
+}
+
+.initlaClassHeader {
+    color: white;
+}
+
+.classListContainer {
+    background: rgba(0, 0, 139, 0.2);
+    padding: 20px 40px;
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 10%);
+}
+
+.classListContainer h2 {
+    color: darkorange;
+    margin-top: 0;
+}
+
+.classListWrapper {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 24px;
+    height: max-content;
+}
+
+.classListWrapper button  {
+    padding: 8px;
+    background: aliceblue;
+}
+
+.classListContainer button:hover {
+    background-color: antiquewhite;
+}
+
+.classInfoWrapper {
+    color: white;
+    display: grid;
+    gap: 12px;
+    background: rgba(0, 0, 139, 0.2);
+    padding: 20px 40px;
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 10%);
+}
+
+.classInfoWrapper .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .classFinished {
+    background: #ffd700;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.header button {
+    background: darkblue;
+    padding: 8px 8px;
+    border-radius: 5px;
+    color: white;
+}
+
+.classInfoWrapper .topic {
+    color: darkorange;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.dateAndDayWrapper {
+    display: grid;
+    gap: 10px;
+}
+
+.day,
+.keyAreasheading {
+    color: darkseagreen;
+}
+
+.dateWrapper {
+    margin-left: 20px;
+    display: flex;
+    gap : 16px;
+}
+
+.keyAreas ul {
+    display: grid;
+    gap: 8px;
+}
+
+.initlaClassContainer {
+    text-align: center;
+}
+
+.initlaClassContainer img {
+    height: 100px;
+}
+
+.classInfoContentWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.classLink {
+    display: grid;
+    gap: 12px;
+    justify-items: center;
+    background: #ffd700;
+    padding: 20px 12px;
+    grid-template-rows: max-content max-content;
+}
+
+.classLink a {
+    text-align: center;
+    display: grid;
+    text-decoration: none;
+    color: #fff;
+    width: max-content;
+    justify-items: center;
+    padding: 9px;
+    height: max-content;
+    background: cornflowerblue;
+    border-radius: 4px;
+}
+
+.meetingInfo {
+    display: grid;
+    gap: 8px;
+}
+
+.meetingId span,
+.passcode span{
+    color: gold;
+}

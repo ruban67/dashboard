@@ -1,0 +1,23 @@
+.recharts-legend-item.legend-item-0,
+.recharts-legend-item.legend-item-1 {
+    margin-right: 24px !important;
+}
+
+.coursePieChart {
+    width: 350px !important;
+    margin-top: 20px;
+    background: rgba(0, 0, 139, 0.2);
+    padding: 20px 40px;
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 10%);
+    display: grid;
+    justify-content: space-around;
+    height: 500px !important;
+    align-items: center;
+}
+
+.coursePieChart .recharts-legend-wrapper {
+    margin-left: 40px !important;
+    bottom: 60px !important;
+    display: flex;
+    justify-content: start;
+}

@@ -1,0 +1,42 @@
+.dashBoardContainer {
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 105px;
+    height: -webkit-fill-available;;
+    width: calc(100% - 105px);
+    position: absolute;
+    scrollbar-width: thin;
+    margin-top: 20px;
+    
+}
+
+/* .dashBoardContainer::-webkit-scrollbar { 
+    /* width: 0 !important */
+    /* scrollbar-width: thin; */
+
+
+.courseChartWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.courseStatusCharts {
+    display: grid;
+}
+
+.courseStatusCharts h2,
+.taskChartWrapper h2 {
+    text-align: center;
+    color: #ebaf68;
+    margin-bottom: 0;
+}
+
+.taskChartWrapper h2 {
+    width: 350px;
+    text-align: right;
+    margin-top: 60px;
+}

@@ -1,0 +1,66 @@
+.logo {
+    font-size: 20px;
+    font-weight: 400;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoText {
+    color:#00b09b;
+    border: 1px solid #1b1e23;
+    padding: 4px;
+    width: fit-content;
+}
+
+.logoText span {
+    background:#1b1e23;
+    padding: 0 4px;
+    width: fit-content;
+    color: black;
+    margin-right: 8px;
+}
+
+.profileImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #1b1e23;
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    text-transform: capitalize;;
+    background-image: linear-gradient(#00b09b, #96c93d);
+}
+
+.userWrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.userWrapper .name {
+    font-size: 26px;
+}
+
+.userProfile {
+    display: flex;
+    align-items: CENTER;
+}
+
+.signOut img {
+    width: 40px;
+    height: 40px;
+}
+
+.topNavContainer {
+    display: flex;
+    justify-content: space-between;
+    background: #ebaf68;
+    padding: 20px 36px;
+    color: white;
+    padding-left: 20px;
+  }

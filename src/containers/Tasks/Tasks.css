@@ -1,0 +1,120 @@
+.tasksContainer {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    margin: 30px;
+    /* margin-top: 60px; */
+    gap: 50px;
+    position: absolute;
+    left: 105px;
+    width: -webkit-fill-available;
+}
+
+.tasksContentWrapper h2 {
+    color: #fff;
+    margin-top: 0;
+}
+
+.taskInfoContainer {
+    background: rgba(0, 0, 139, 0.2);
+    padding: 20px 40px;
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 10%);
+    height: fit-content;
+}
+
+.tasksInfoWrapper {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 30px;
+}
+
+.taskInfoContainer h2 {
+    margin-top: 0;
+    color: darkorange;
+}
+
+.tasksInfoWrapper button {
+    background: aliceblue;
+    padding: 8px;
+}
+
+.tasksInfoWrapper button:hover {
+    background-color: antiquewhite;
+}
+
+.initalTaskHeader {
+    text-align: center;
+}
+
+.initalTaskHeader img {
+    height: 100px;
+}
+
+.tasksContentWrapper {
+    color: #fff;
+    /* background: rgba(0, 0, 139, 0.2);
+    padding: 20px 40px;
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 10%); */
+    height: fit-content;
+}
+
+.taskCard {
+    color: #fff !important;
+    background-color: rgba(0, 0, 139, 0.2) !important;
+    padding: 20px 40px;
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 10%) !important;
+    height: fit-content;
+}
+
+.taskSubmissionForm,
+.taskCard {
+    display: grid;
+    gap: 12px;
+}
+
+.taskSubmissionForm input {
+    width: 70%;
+    height: 32px;
+    border-radius: 4px;
+    margin-top: 4px;
+    background-color: aliceblue !important;
+    padding-left: 8px;
+    /* background-color: rgba(138, 43, 226, 0.4);
+    border-color: rgba(138, 43, 226, 0.4); */
+}
+
+.taskSubmissionForm .readOnlyInput input {
+    background-color: slategray !important;
+    border-color: slategray !important;
+}
+
+.taskSubmissionForm label {
+    color: greenyellow;
+}
+
+.taskDescription {
+    color: darkorange;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.taskSubmissionForm button {
+    width: max-content;
+    background: blueviolet;
+    margin-top: 12px;
+}
+
+.note {
+    color: darkgrey;
+}
+
+.taskHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taskStatus {
+    padding: 8px;
+    background: lightseagreen;
+    border-radius: 4px;
+}

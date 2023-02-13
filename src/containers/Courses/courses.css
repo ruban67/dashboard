@@ -1,0 +1,148 @@
+.courses{
+    height: fit-content;
+    padding : 32px;
+}
+
+.courseWrapper{
+    height : 100%;
+    display : flex;
+    flex-wrap : wrap;
+    gap : 40px;
+    justify-content: space-around;
+}
+
+.courseCardWrapper{
+    height : 450px;
+    width : 450px;
+    transition : 0.3s !important;
+    box-shadow: 2px 2px 10px 0px rgb(0 0 0 / 20%) !important;
+    border: 1px soid rgb(0 0 0 / 20%) !important;
+}
+
+.courseCardWrapper img{
+    margin: 10px;
+    height: 180px;
+    width: 430px;
+    object-fit: fill;
+}
+
+.contentWrapper{
+    display : flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.content{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.content h3{
+    margin : 0px !important;
+}
+
+.courseCardWrapper:hover{
+    transform : scale(1.1);
+}
+
+.content div{
+    height : 90px;
+    overflow: auto;
+}
+
+/* .bodyContainer {
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    gap: 30px;
+    height: 100vh;
+    overflow: hidden;
+}
+   */
+  
+.appContainer {
+    background: #232323;
+    overflow: hidden;
+    height: 100vh;
+}
+
+  .allCoursesWraper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    overflow: auto;
+    margin: 20px 20px 20px 0;
+    height: calc(100% - 85px);
+    position: absolute;
+    left: 105px;
+}
+
+.allCoursesWraper::-webkit-scrollbar { 
+    width: 0 !important
+}
+
+.courseCard {
+    width: 280px;
+    height: 290px;
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 10%);
+    background-color: white;
+    cursor: pointer;
+}
+
+.courseCard h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.courseCard img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.courseWrapper {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 40px;
+    padding: 60px 40px;
+    background: darkslateblue;
+    overflow: hidden;
+    position: absolute;
+    left: 105px;
+    width: -webkit-fill-available;
+    height: calc(100% - 85px);
+    /* height: 100vh; */
+}
+
+.reactPlayer {
+    width: 100% !important;
+    height: 500px !important;
+    margin-bottom: 20px;
+}
+
+.rightNavAllCourses {
+    display: grid;
+    gap: 30px;
+    overflow: scroll;
+    /* margin-bottom: 30px; */
+}
+
+.rightNavAllCourses h3 {
+    margin: 0;
+    color: #fff;
+}
+
+.courseDescription {
+    margin: 0 12px;
+}
+
+.courseDescription p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

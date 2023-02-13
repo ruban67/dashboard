@@ -1,0 +1,50 @@
+.dashBoardCardContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.dashBoardcard0,
+.dashBoardcard1,
+.dashBoardcard2 {
+    width: 300px;
+}
+
+.dashBoardCardContent  {
+    color: white;
+}
+
+.dashBoardCardContent h4 {
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.dashBoardCardContent h1 {
+    margin: 0;
+}
+
+.dashBoardCardContent img {
+    width: 40px;
+    height: 40px;
+}  
+
+.dashboardCardContainer {
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+
+.dashboardCardContainer .dashBoardcard0 {
+    background-image: linear-gradient(to right,#8360c3, #2ebf91);
+}
+
+.dashboardCardContainer .dashBoardcard1 {
+    background-image: linear-gradient(to right,#6a82fb, #fc5c7d);
+    /* background-image: linear-gradient(to right,#00b09b, #96c93d); */
+}
+
+.dashboardCardContainer .dashBoardcard2 {
+    /* background-image: linear-gradient(to right,#c6ffdd, #fbd786, #f7797d); */
+    /* background-image: linear-gradient(to right, #2c7744, #5a3f37); */
+    background-image: linear-gradient(to right,#00b09b, #96c93d);
+}
